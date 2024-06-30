@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/banner-bg.jpg');
+}
+
+/* header  */
+header {
+    background-color: #243c5a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-radius: 10px;
+}
+.title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.title h1 a {
+    color: #ffd700;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+.title h1 a:hover {
+    color: lightgrey;
+}
+.links {
+    flex: 1;
+    text-align: center;
+}
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+.links a:hover {
+    color: #ffd700;
+    text-decoration: none;
+}
+.icons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 18px;
+}
+.icons a {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+.icons i:hover {
+    color: #ffd700;
+}
+
+/* customers.css */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(36, 60, 90, 0.3);
+    background-color: #fff;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #243c5a;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px 16px;
+    text-align: center;
+}
+th {
+    background-color: #243c5a;
+    color: #ffd700;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+td {
+    background-color: #f2f2f2;
+    color: #243c5a;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-btn,
+.update-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #243c5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.delete-btn:hover,
+.update-btn:hover {
+    background-color: #ffd700;
+}
+
+/* Footer */
+.footer {
+    background-color: #243c5a;
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: auto;
+}
+.footer p {
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+}

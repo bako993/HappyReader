@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="../styles/order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <div class="title">
+        <h1><a href="#" class="logo"> <i class="fas fa-book"></i>HappyReader</a></h1>
+    </div>
+    <nav class="links">
+        <a href="../pages/index.html">Home</a>
+        <a href="../pages/books.html">Books</a>
+        <a href="../pages/customers.html">Customers</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Order Confirmation</h1>
+    <!-- order content -->
+    <table id="orderItems">
+        <thead>
+        <tr>
+            <th>Book ID</th>
+            <th>Book Name</th>
+            <th>Author Name</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <p id="totalAmount"></p>
+
+    <!-- customer information form -->
+    <form id="customerForm">
+        <p id="confirmationMessage"></p>
+        <h2>Send Your Order</h2>
+        <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="form-row">
+            <label for="address">Address</label>
+            <textarea id="address" required></textarea>
+        </div>
+        <div class="form-row">
+            <button type="submit">Send</button>
+        </div>
+    </form>
+
+</div>
+
+<footer class="footer">
+    <p>Choose Your Desired Book With Us</p>
+</footer>
+
+<script src="../scripts/order.js"></script>
+
+</body>
+</html>

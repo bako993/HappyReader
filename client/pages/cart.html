@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="../styles/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- header -->
+<header>
+    <div class="title">
+        <h1><a href="#" class="logo"> <i class="fas fa-book"></i>HappyReader</a></h1>
+    </div>
+    <nav class="links">
+        <a href="../pages/index.html">Home</a>
+        <a href="../pages/books.html">Books</a>
+        <a href="../pages/customers.html">Customers</a>
+    </nav>
+</header>
+
+<!-- cart content -->
+<table id="cartItems">
+    <thead>
+    <tr>
+        <th>Book ID</th>
+        <th>Book Name</th>
+        <th>Author Name</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<p class="total-amount">Total Amount: <span id="totalAmount"></span></p>
+<button id="orderButton">Place Order</button>
+
+<!-- footer -->
+<footer class="footer">
+    <p>Choose Your Desired Book With Us</p>
+</footer>
+
+<script src="../scripts/cart.js"></script>
+</body>
+</html>

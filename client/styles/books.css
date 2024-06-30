@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/banner-bg.jpg');
+}
+
+/* header  */
+header {
+    background-color: #243c5a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.title {
+    flex: 1;
+}
+.title h1 a{
+    color: #ffd700;
+}
+.title h1 a:hover{
+    color: lightgrey;
+}
+.links {
+    flex: 1;
+    text-align: center;
+}
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.2em;
+}
+.links a:hover {
+    color: #ffd700;
+}
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+.icons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icons a {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+.icons i:hover {
+    color: #ffd700;
+}
+
+/*
+list of books
+ */
+.form-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #243c5a;
+    color: #fff;
+}
+form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+input[type="text"],
+input[type="number"] {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+
+}
+button {
+    padding: 8px 16px;
+    background-color: #243c5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+    background-color: #ffd700;
+}
+
+.error-message-container {
+    text-align: center;
+    margin-top: 5px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+.green-icon {
+    color: limegreen;
+    margin-left: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #243c5a;
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: auto;
+}
+.footer p {
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+}

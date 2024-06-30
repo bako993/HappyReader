@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+
+    <link rel="icon" href="../images/favicon.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="title">
+            <h1><a href="#" class="logo"> <i class="fas fa-book"></i>HappyReader</a></h1>
+        </div>
+        <nav class="links">
+            <a href="#Home" class="smooth-scroll">Home</a>
+            <a href="../pages/books.html">Books</a>
+            <a href="../pages/customers.html">Customers</a>
+            <a href="#Service" class="smooth-scroll">Service</a>
+            <a href="#AboutUs" class="smooth-scroll">About Us</a>
+        </nav>
+        <div class="icons">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+
+    <!-- main of home page -->
+    <main class="my-main" id="Home">
+        <div class="content">
+            <h3>
+                <span>B</span>
+                <span>O</span>
+                <span>O</span>
+                <span>K</span>
+                <span>&nbsp;</span>
+                <span>C</span>
+                <span>O</span>
+                <span>L</span>
+                <span>L</span>
+                <span>E</span>
+                <span>C</span>
+                <span>T</span>
+                <span>I</span>
+                <span>O</span>
+                <span>N</span>
+            </h3>
+        </div>
+        <div class="row">
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper" id="booksContainer">
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <img src="../images/shelf.png" class="stand" alt="">
+            </div>
+        </div>
+    </main>
+
+    <!-- service -->
+    <section class="service-icons" id="Service">
+        <div class="service-icon">
+            <i class="fas fa-shipping-fast"></i>
+            <h4>Free Shipping</h4>
+            <p>Free Shipping</p>
+        </div>
+        <div class="service-icon">
+            <i class="fas fa-lock"></i>
+            <h4>Secure Payment</h4>
+            <p>%100 Secure Payment</p>
+        </div>
+        <div class="service-icon">
+            <i class="fas fa-redo-alt"></i>
+            <h4>Easy Returns</h4>
+            <p>10 Days Returns</p>
+        </div>
+        <div class="service-icon">
+            <i class="fas fa-headset"></i>
+            <h4>24/7 Support</h4>
+            <p>Call Us Anytime</p>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer_main" id="AboutUs">
+            <div class="tag">
+                <h1>Contact</h1>
+                <a><i class="fa-solid fa-house"></i>Netherlands/Arnhem</a>
+                <a><i class="fa-solid fa-phone"></i></i>0031 654 39 02 15</a>
+                <a><i class="fa-solid fa-envelope"></i>contact@gmail.com</a>
+            </div>
+
+            <div class="tag">
+                <h1>Get Help</h1>
+                <a class="center">FAQ</a>
+                <a class="center">Shipping</a>
+                <a class="center">Returning</a>
+                <a class="center">Payment Options</a>
+            </div>
+
+            <div class="tag">
+                <h1>Our Stores</h1>
+                <a class="center">Arnhem</a>
+                <a class="center">Amsterdam</a>
+                <a class="center">Deventer</a>
+                <a class="center">Enchede</a>
+            </div>
+
+            <div class="tag">
+                <h1>Follow Us</h1>
+                <div class="social_link">
+                    <a><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                    <a><i class="fa-brands fa-instagram"></i></a>
+                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="tag">
+                <h1>Newsletter</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="Your email here">
+                    <button type="submit">Subscribe</button>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+     loader
+    <div class="loader-container">
+        <img src="../images/gb-notebook.gif" alt="">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="../styles/books.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- header -->
+<header>
+    <div class="title">
+        <h1><a href="#" class="logo"> <i class="fas fa-book"></i>HappyReader</a></h1>
+    </div>
+        <nav class="links">
+            <a href="../pages/index.html" class="smooth-scroll">Home</a>
+            <a href="../pages/books.html">Books</a>
+            <a href="../pages/customers.html">Customers</a>
+        </nav>
+    <div class="icons">
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+</header>
+
+    <div class="form-container">
+        <form id="addBookForm">
+            <input type="text" id="bookNameInput" placeholder="Book Name" required>
+            <input type="text" id="authorNameInput" placeholder="Author Name" required>
+            <input type="text" id="categoryInput" placeholder="Category" required>
+            <input type="number" id="priceInput" placeholder="Price" required step="0.01">
+            <button type="submit">Add Book</button>
+        </form>
+        <div id="errorMessageContainer" class="error-message-container"></div>
+    </div>
+
+    <table id="booksTable">
+        <tr>
+            <th>Book ID</th>
+            <th>Book Name</th>
+            <th>Author Name</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+    </table>
+
+<footer class="footer">
+    <p>Choose Your Desired Book With Us</p>
+</footer>
+
+<script src="../scripts/books.js"></script>
+</body>
+</html>
